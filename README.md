@@ -29,6 +29,7 @@ step 2. install RTAB package
 step 3. install a package of robot teleop 
 
     git clone https://github.com/ros-teleop/teleop_twist_keyboard.git src/teleop_twist_keyboard
+    mv src/mapping.launch src/teleop_twist_keyboard/
     catkin_make
 
 
@@ -54,3 +55,5 @@ Open the third terminal
 
 ## Test it
 
+1. Use keyboard to manipulate robot around simulation enviornment
+2. Evaluate map with rtabmap-databaseViewer 
